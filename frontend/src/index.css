@@ -1,0 +1,65 @@
+.container-nav{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.sidebar{
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+ 
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:12px 15px;
+  transition: all 0.5s;
+}
+.logo{
+  font-size: 23px;
+  transition: all 0.5s;
+}
+.bars{
+  display: flex;
+  font-size: 20px;
+  transition: all 0.5s;
+  
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 17px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.link:hover{
+  background:#ed721d;
+  color: #000;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.active{
+  background: #ed721d;
+  color: #000;
+  transition: all 0.5s;
+}
+.icon, .link_text{
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.btn {
+  font-size: 12px !important;
+}
+
+.download-shipment
+{
+  position: absolute;
+  right: 40px;
+  color: white;
+}

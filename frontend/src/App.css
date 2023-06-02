@@ -1,0 +1,59 @@
+.back{
+  background-image: url('https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGlnaHQlMjB0aGVtZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+  min-height: 500px;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+.App{
+  text-align:left;
+}
+.errmsg{
+  color:red;
+}
+.app-check{
+  height:20px;
+  width:20px;
+  margin:1%;
+}
+/* .box{
+  height:200px;
+  width:350px;
+  text-align: center;
+  margin-left:400px;
+  margin-top: 100px;
+  background-color:aliceblue;
+  border-radius:20px;
+} */
+
+
+.container {
+ width:400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container input[type="email"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container button {
+  width: 400px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
